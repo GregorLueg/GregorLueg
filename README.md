@@ -1,19 +1,21 @@
-## Hi there 👋
+## Hi there
+
+### Who am I ... ?
 
 Computational biologist working at the intersection of drug discovery and
 large-scale biomedical data, think CRISPR screens, genetics, transcriptomics,
-multi-omics. </br>
+multi-omics (including single cell). </br>
 Lately spending a lot of time building open-source tooling:
 R packages for bioinformatics & computational biology and Rust crates, often
-combining the two for performance-critical work. Based in industry, but believe
-good science needs good (and importantly fast!) accessible software. Some
+combining the two for performance-critical work. Based in industry, but firm
+believer that good science needs performant and accessible software. Some
 Python packages also in the making around ETLs of large-scale biomedical data.
 Keep an eye open... ;-)
 
 ### R Packages
 
-Below are R packages I wrote on the side with specific aims and personal
-trainings goals in mind.
+Below are R packages I created on the side with specific aims and personal
+(technical) development goals in mind.
 
 | Package | Description |
 |---------|-------------|
@@ -24,8 +26,8 @@ trainings goals in mind.
 ### Rust Crates
 
 Close to dying my hair blue... Jokes aside, below are the public Rust crates
-I am working on. These serve to power the libraries and packages in the
-interpreted, dynamically typed languages I am working on.
+I have created and I am working on. These serve to power the libraries and
+packages in the interpreted, dynamically typed languages I am working on.
 
 | Crate | crates.io | Description |
 |-------|-----------|-------------|
