@@ -5,9 +5,10 @@
 Computational biologist working at the intersection of drug discovery and
 large-scale biomedical data, think CRISPR screens, genetics, transcriptomics,
 multi-omics. </br>
-Lately spending a lot of time building open-source tooling:
-R packages for bioinformatics & computational biology and Rust crates, often
-combining the two for performance-critical work. Based in industry, but firm
+Lately spending more time building open-source tooling specifically for this
+domain: R packages for bioinformatics & computational biology and Rust crates,
+often combining the two for performance-critical work. Based in industry with
+experience in larger pharma companies and small biotechs, but firm
 believer that good science needs performant and accessible software. Some
 Python packages also in the making around ETLs of large-scale biomedical data.
 Keep an eye open... ;-)
