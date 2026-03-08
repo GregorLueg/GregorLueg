@@ -4,7 +4,7 @@
 
 Computational biologist working at the intersection of drug discovery and
 large-scale biomedical data, think CRISPR screens, genetics, transcriptomics,
-multi-omics (including single cell). </br>
+multi-omics. </br>
 Lately spending a lot of time building open-source tooling:
 R packages for bioinformatics & computational biology and Rust crates, often
 combining the two for performance-critical work. Based in industry, but firm
@@ -20,7 +20,7 @@ Below are R packages I created on the side with specific aims and personal
 | Package | Description |
 |---------|-------------|
 | [genewalkR](https://github.com/GregorLueg/genewalkR) | node2vec interface from Rust that implements different (light) GNN-based compbio methods |
-| [manifoldsR](https://github.com/GregorLueg/manifoldsR) | 2d embedding and manifold learning method (think single cell visualisations) in one single package made blazingly fast |
+| [manifoldsR](https://github.com/GregorLueg/manifoldsR) | 2D embedding and manifold learning method (think single cell visualisations) in one single package made blazingly fast |
 | [bixverse](https://github.com/GregorLueg/bixverse) | The `tidyverse` equivalent for bioinformatics... Highly accelerated and optimised computational biology methods|
 
 ### Rust Crates
