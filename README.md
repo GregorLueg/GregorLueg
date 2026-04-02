@@ -4,16 +4,16 @@
 
 Computational biologist working at the intersection of drug discovery and
 large-scale biomedical data, think CRISPR screens, genetics, transcriptomics,
-multi-omics. AI has been become such a buzzword, but I do enjoy the application
-of ML where (from my perception) useful in my domain: vector searches, 
-quantisations, graph-based methods are honestly just cool. </br>
-Lately spending more time building open-source tooling specifically for this
-domain: R packages for bioinformatics & computational biology and Rust crates,
-often combining the two for performance-critical work. Based in industry with
-experience in larger pharma companies and small biotechs, but firm
-believer that good science needs performant and accessible open-source software 
-that does not necessitate fat cloud servers. Some Python packages also in the 
-making around ETLs of large-scale biomedical data. Keep an eye open... ;-)
+multi-omics. AI has become a bit of a buzzword, but I do enjoy the application
+of ML/AI where (from my perception) useful: vector searches, quantisations, 
+graph-based methods are honestly just cool. Experimenting with [Burn](https://burn.dev) as a Deep Learning framework that can run on most GPUs. </br>
+Lately spending more time building open-source tooling: R packages for 
+bioinformatics & computational biology and Rust crates, often combining the two 
+for performance-critical work. My background is in industry with experience in 
+larger pharma companies and small biotechs, but firm believer that good science 
+needs performant and accessible open-source software that does not necessitate 
+fat cloud servers. Some Python packages also in the making around ETLs of 
+large-scale biomedical data. Keep an eye open... 
 
 ### R Packages
 
@@ -22,11 +22,11 @@ hand-tailored methods.
 
 | Package | Description |
 |---------|-------------|
-| [genewalkR](https://github.com/GregorLueg/genewalkR) | node2vec interface from Rust that implements different (light) GNN-based compbio methods |
-| [manifoldsR](https://github.com/GregorLueg/manifoldsR) | 2D embedding and manifold learning method (think single cell visualisations) in a single package made blazingly fast |
-| [bixverse](https://github.com/GregorLueg/bixverse) | The `tidyverse` equivalent for bioinformatics... Highly accelerated and optimised computational biology methods. Also contains a single cell analysis framework enabling million cell analyses locally |
+| [bixverse](https://github.com/GregorLueg/bixverse) | The `tidyverse` equivalent for bioinformatics... Highly accelerated and optimised computational biology methods. Also contains a single cell analysis framework enabling million cell analyses on small compute. |
 | [bixverse.gpu](https://github.com/GregorLueg/bixverse.gpu) | SIMD-accelerated CPU code not fast enough? Need more oomph? Contains GPU-accelerated methods (mostly for single cell) for the `bixverse`. |
 | [bixverse.plots](https://github.com/GregorLueg/bixverse.plots) | Plotting helpers for `bixverse` because codebase is already too large... |
+| [genewalkR](https://github.com/GregorLueg/genewalkR) | All types of graph-based computational methods; has also an implementation of node2vec and methods based on that small neural network. |
+| [manifoldsR](https://github.com/GregorLueg/manifoldsR) | 2D embedding and manifold learning method (think single cell visualisations) in a single package made blazingly fast |
 
 ### Rust Crates
 
