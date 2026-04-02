@@ -1,4 +1,4 @@
-## Hi there
+## Heyho
 
 ### Who am I ... ?
 
@@ -10,15 +10,14 @@ graph-based methods are honestly just cool. Experimenting with [Burn](https://bu
 Lately spending more time building open-source tooling: R packages for 
 bioinformatics & computational biology and Rust crates, often combining the two 
 for performance-critical work. My background is in industry with experience in 
-larger pharma companies and small biotechs, but firm believer that good science 
-needs performant and accessible open-source software that does not necessitate 
-fat cloud servers. Some Python packages also in the making around ETLs of 
-large-scale biomedical data. Keep an eye open... 
+larger pharma companies and small biotechs, but overall just a firm believer 
+that good science needs performant and accessible open-source software that does 
+not necessitate fat cloud servers. Some Python packages also in the making 
+around ETLs of large-scale biomedical data. Keep an eye open... 
 
 ### R Packages
 
-Below are R packages I created and maintain on the side as labour of passion and
-hand-tailored methods.
+Below are R packages I created and maintain on the side as labour of passion:
 
 | Package | Description |
 |---------|-------------|
@@ -33,7 +32,8 @@ hand-tailored methods.
 [Close to dying my hair blue...](https://www.youtube.com/watch?v=TGfQu0bQTKc)
 Jokes aside, below are the public Rust crates I have created and maintain. These
 power the libraries and packages in the interpreted, dynamically typed
-languages, see above.
+languages, see above. There are here as standalone libraries, so, if you wish
+to integrate them into your Rust code, all MIT licensed.
 
 | Crate | crates.io | Description |
 |-------|-----------|-------------|
