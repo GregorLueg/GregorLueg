@@ -1,5 +1,7 @@
 ## Heyho
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GregorLueg)
+
 ### Who am I ... ?
 
 Computational biologist/biomedical data sciensts working at the intersection of
