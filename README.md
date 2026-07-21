@@ -1,7 +1,5 @@
 ## Heyho
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GregorLueg/GregorLueg)
-
 ### Who am I ... ?
 
 Computational biologist/biomedical data sciensts working at the intersection of
@@ -10,15 +8,14 @@ transcriptomics, multi-omics, clinical data and and ontologies. AI has become a
 bit of a buzzword, but I do enjoy the application of ML/AI where (from my
 perception) useful: vector searches, quantisations, graph-based methods are
 honestly just cool. Experimenting with [burn](https://burn.dev) as a Deep
-Learning framework that  can run on most GPUs. Also writing my own
+Learning framework that can run on most GPUs. Also writing my own
 GPU-accelerated methods via [cubecl](https://github.com/tracel-ai/cubecl).</br>
 Lately spending more time building open-source tooling: R packages for
 bioinformatics & computational biology and Rust crates, often combining the two
 for performance-critical work. My background is in industry with experience in
 larger pharma companies and small biotechs, but overall just a firm believer
 that good science needs performant and accessible open-source software that does
-not necessitate fat cloud servers. Some Python packages also in the making
-around ETLs of large-scale biomedical data. Keep an eye open...
+not necessitate fat cloud servers.
 
 ### R Packages
 
