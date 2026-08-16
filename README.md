@@ -11,7 +11,7 @@ Currently playing with [burn](https://burn.dev) for deep learning and writing GP
 | Package | Description |
 |---------|-------------|
 | [bixverse](https://github.com/GregorLueg/bixverse) | The kitchen sink. Enrichment (GSEA, GSVA, ssGSEA, Gene Ontology with the ontology baked in), matrix factorisations (ICA, NMF, contrastive PCA), gene diffusion, reciprocal best hits, correlation-based methods, and a single cell suite that scales to a million cells on 16 GB without breaking a sweat. |
-| [bixverse.gpu](https://github.com/GregorLueg/bixverse.gpu) | SIMD not enough? GPU-accelerated kNN, k-means, correlations, Harmony and sparse PCA for `bixverse`. Also powers a parametric UMAP for `manifoldsR`. |
+| [bixverse.gpu](https://github.com/GregorLueg/bixverse.gpu) | SIMD not enough? GPU-accelerated kNN, k-means, correlations, Harmony, SCENIC, SEACells, Scrubet and sparse PCA for `bixverse`. Also powers a parametric UMAP for `manifoldsR` + GPU-accelerated Adam optimiser for UMAP. |
 | [bixverse.plots](https://github.com/GregorLueg/bixverse.plots) | Plotting sub-package. Covers the single cell workflows in `bixverse`. |
 | [genewalkR](https://github.com/GregorLueg/genewalkR) | node2vec interface with a growing collection of graph-heavy computational biology methods: GeneWalk, GeneDrift, random walks and other diffusion approaches. |
 | [manifoldsR](https://github.com/GregorLueg/manifoldsR) | UMAP, tSNE, PaCMAP, diffusion maps and PHATE (CPU) with swappable ANN back-ends from `ann-search-rs`. |
@@ -27,3 +27,4 @@ Public, MIT licensed, usable on their own if you want to skip R.
 | [manifolds-rs](https://github.com/GregorLueg/manifolds-rs) | [![crates.io](https://img.shields.io/crates/v/manifolds-rs)](https://crates.io/crates/manifolds-rs) | The 2D embedding methods behind `manifoldsR`. |
 | [node2vec-rs](https://github.com/GregorLueg/node2vec-rs) | [![crates.io](https://img.shields.io/crates/v/node2vec-rs)](https://crates.io/crates/node2vec-rs) | node2vec. Optimised CPU implementation plus a [burn](https://burn.dev) version from my first trials with the framework. |
 | [evoc-rs](https://github.com/GregorLueg/evoc-rs) | [![crates.io](https://img.shields.io/crates/v/evoc-rs)](https://crates.io/crates/evoc-rs) | Rust port of [EVoC clustering](https://github.com/TutteInstitute/evoc) by Leland McInnes. Exposed via `manifoldsR` since it uses a UMAP-like backbone. |
+| [cubecl-utils-rs](https://crates.io/crates/cubecl-utils-rs) | [![crates.io](https://img.shields.io/crates/v/cubecl-utils-rs)](https://crates.io/crates/cubecl-utils-rs) | Shared helpers for cubecl kernels across my crates. |
