@@ -2,7 +2,7 @@
 
 ### Who am I...?
 
-Computational biologist working across CRISPR screens, genetics, transcriptomics, multi-omics, clinical data and ontologies. Industry background, mostly pharma and biotech. Spare cycles go into open-source tooling: R packages for computational biology and Rust crates that make them fast. Firm believer that good science needs performant open-source software that runs without a fat cloud bill.
+Computational biologist working across CRISPR screens, genetics, transcriptomics, multi-omics, clinical data and ontologies. Industry background, mostly pharma and biotech. Spare cycles go into open-source tooling: R packages and Python libraries for computational biology and Rust crates that make them fast. Firm believer that good science needs performant open-source software that runs without a fat cloud bill.
 
 Currently playing with [burn](https://burn.dev) for deep learning and writing GPU kernels via [cubecl](https://github.com/tracel-ai/cubecl).
 
@@ -21,11 +21,11 @@ for easy installations without painful Rust compile times.
 
 ### Python packages
 
-Thin wrapper over Rust, MIT licensed and on PyPI.
+Thin wrapper over Rust, MIT licensed and on PyPI. These are barebone wrappers around blazingly fast vector searches, 2D embedding methods for visualisations and EVoC clustering.
 
 | Package | PyPI | Description |
 |---------|------|-------------|
-| [ann-search](https://gregorlueg.github.io/ann-search-rs/)| | Python wrappers over `ann-search-rs` - blazingly fast vector/nearest neighbour search with a wide array of indices and methods. |
+| [ann-search](https://gregorlueg.github.io/ann-search-rs/) | [![PyPI](https://img.shields.io/pypi/v/ann-search)](https://pypi.org/project/ann-search/) | Python wrappers over `ann-search-rs` - blazingly fast vector/nearest neighbour search with a wide array of indices and methods. |
 
 
 ### Rust Crates
