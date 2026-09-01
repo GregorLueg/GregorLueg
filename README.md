@@ -8,6 +8,9 @@ Currently playing with [burn](https://burn.dev) for deep learning and writing GP
 
 ### R Packages
 
+Public, MIT licensed, slowly but surely also moving to [R-universe](https://gregorlueg.r-universe.dev/packages)
+for easy installations without painful Rust compile times.
+
 | Package | Description |
 |---------|-------------|
 | [bixverse](https://github.com/GregorLueg/bixverse) | The kitchen sink. Enrichment (GSEA, GSVA, ssGSEA, Gene Ontology with the ontology baked in), matrix factorisations (ICA, NMF, contrastive PCA), gene diffusion, reciprocal best hits, correlation-based methods, and a single cell suite that scales to a million cells on 16 GB without breaking a sweat. |
@@ -15,6 +18,15 @@ Currently playing with [burn](https://burn.dev) for deep learning and writing GP
 | [bixverse.plots](https://github.com/GregorLueg/bixverse.plots) | Plotting sub-package. Covers the single cell workflows in `bixverse`. |
 | [genewalkR](https://github.com/GregorLueg/genewalkR) | node2vec interface with a growing collection of graph-heavy computational biology methods: GeneWalk, GeneDrift, random walks and other diffusion approaches. |
 | [manifoldsR](https://github.com/GregorLueg/manifoldsR) | UMAP, tSNE, PaCMAP, diffusion maps and PHATE (CPU) with swappable ANN back-ends from `ann-search-rs`. |
+
+### Python packages
+
+Thin wrapper over Rust, MIT licensed and on PyPI.
+
+| Package | PyPI | Description |
+|---------|------|-------------|
+| [ann-search](https://gregorlueg.github.io/ann-search-rs/)| | Python wrappers over `ann-search-rs` - blazingly fast vector/nearest neighbour search with a wide array of indices and methods. |
+
 
 ### Rust Crates
 
