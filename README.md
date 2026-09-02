@@ -2,19 +2,32 @@
 
 ### Who am I...?
 
-Computational biologist working across CRISPR screens, genetics, transcriptomics, multi-omics, clinical data and ontologies. Industry background, mostly pharma and biotech. Spare cycles go into open-source tooling: R packages for computational biology and Rust crates that make them fast. Firm believer that good science needs performant open-source software that runs without a fat cloud bill.
+Computational biologist working across CRISPR screens, genetics, transcriptomics, multi-omics, clinical data and ontologies. Industry background, mostly pharma and biotech. Spare cycles go into open-source tooling: R packages and Python libraries for computational biology and Rust crates that make them fast. Firm believer that good science needs performant open-source software that runs without a fat cloud bill.
 
 Currently playing with [burn](https://burn.dev) for deep learning and writing GPU kernels via [cubecl](https://github.com/tracel-ai/cubecl).
 
 ### R Packages
 
-| Package | Description |
-|---------|-------------|
-| [bixverse](https://github.com/GregorLueg/bixverse) | The kitchen sink. Enrichment (GSEA, GSVA, ssGSEA, Gene Ontology with the ontology baked in), matrix factorisations (ICA, NMF, contrastive PCA), gene diffusion, reciprocal best hits, correlation-based methods, and a single cell suite that scales to a million cells on 16 GB without breaking a sweat. |
-| [bixverse.gpu](https://github.com/GregorLueg/bixverse.gpu) | SIMD not enough? GPU-accelerated kNN, k-means, correlations, Harmony, SCENIC, SEACells, Scrubet and sparse PCA for `bixverse`. Also powers a parametric UMAP for `manifoldsR` + GPU-accelerated Adam optimiser for UMAP. |
-| [bixverse.plots](https://github.com/GregorLueg/bixverse.plots) | Plotting sub-package. Covers the single cell workflows in `bixverse`. |
-| [genewalkR](https://github.com/GregorLueg/genewalkR) | node2vec interface with a growing collection of graph-heavy computational biology methods: GeneWalk, GeneDrift, random walks and other diffusion approaches. |
-| [manifoldsR](https://github.com/GregorLueg/manifoldsR) | UMAP, tSNE, PaCMAP, diffusion maps and PHATE (CPU) with swappable ANN back-ends from `ann-search-rs`. |
+Public, MIT licensed, slowly but surely also moving to [R-universe](https://gregorlueg.r-universe.dev/packages)
+for easy installations without painful Rust compile times.
+
+| Package | R-universe | Description |
+|---------|------------|-------------|
+| [bixverse](https://github.com/GregorLueg/bixverse) | [![bixverse status badge](https://gregorlueg.r-universe.dev/bixverse/badges/version)](https://gregorlueg.r-universe.dev/bixverse) | The kitchen sink. Enrichment (GSEA, GSVA, ssGSEA, Gene Ontology with the ontology baked in), matrix factorisations (ICA, NMF, contrastive PCA), gene diffusion, reciprocal best hits, correlation-based methods, and a single cell suite that scales to a million cells on 16 GB without breaking a sweat. |
+| [bixverse.gpu](https://github.com/GregorLueg/bixverse.gpu) | *To be released* | SIMD not enough? GPU-accelerated kNN, k-means, correlations, Harmony, SCENIC, SEACells, Scrubet and sparse PCA for `bixverse`. Also powers a parametric UMAP for `manifoldsR` + GPU-accelerated Adam optimiser for UMAP. |
+| [bixverse.plots](https://github.com/GregorLueg/bixverse.plots) | [![bixverse.plots status badge](https://gregorlueg.r-universe.dev/bixverse.plots/badges/version)](https://gregorlueg.r-universe.dev/bixverse.plots) |Plotting sub-package. Covers the single cell workflows in `bixverse`. |
+| [genewalkR](https://github.com/GregorLueg/genewalkR) | [![genewalkR status badge](https://gregorlueg.r-universe.dev/genewalkR/badges/version)](https://gregorlueg.r-universe.dev/genewalkR) | node2vec interface with a growing collection of graph-heavy computational biology methods: GeneWalk, GeneDrift, random walks and other diffusion approaches. |
+| [manifoldsR](https://github.com/GregorLueg/manifoldsR) | [![manifoldsR status badge](https://gregorlueg.r-universe.dev/manifoldsR/badges/version)](https://gregorlueg.r-universe.dev/manifoldsR) | UMAP, tSNE, PaCMAP, diffusion maps and PHATE (CPU) with swappable ANN back-ends from `ann-search-rs`. |
+
+### Python packages
+
+Thin wrapper over Rust, MIT licensed and on PyPI. These are barebone wrappers around blazingly fast vector searches, 2D embedding methods for visualisations and EVoC clustering.
+
+| Package | PyPI | Description |
+|---------|------|-------------|
+| [ann-search](https://gregorlueg.github.io/ann-search-rs/) | [![PyPI](https://img.shields.io/pypi/v/ann-search)](https://pypi.org/project/ann-search/) | Python wrappers over `ann-search-rs` - blazingly fast vector/nearest neighbour search with a wide array of indices and methods. |
+| [manifolds-rs](https://gregorlueg.github.io/manifolds-rs/) | [![PyPI](https://img.shields.io/pypi/v/manifolds-rs)](https://pypi.org/project/manifolds-rs/) | Python wrappers over, you guessed it, `manifolds-rs`. If you need a very fast UMAP, tSNE or other embeddding in Python. |
+
 
 ### Rust Crates
 
