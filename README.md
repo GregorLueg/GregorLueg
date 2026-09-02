@@ -26,6 +26,7 @@ Thin wrapper over Rust, MIT licensed and on PyPI. These are barebone wrappers ar
 | Package | PyPI | Description |
 |---------|------|-------------|
 | [ann-search](https://gregorlueg.github.io/ann-search-rs/) | [![PyPI](https://img.shields.io/pypi/v/ann-search)](https://pypi.org/project/ann-search/) | Python wrappers over `ann-search-rs` - blazingly fast vector/nearest neighbour search with a wide array of indices and methods. |
+| [manifolds-rs](https://gregorlueg.github.io/manifolds-rs/) | [![PyPI](https://img.shields.io/pypi/v/manifolds-rs)](https://pypi.org/project/manifolds-rs/) | Python wrappers over, you guessed it, `manifolds-rs`. If you need a very fast UMAP, tSNE or other embeddding in Python. |
 
 
 ### Rust Crates
