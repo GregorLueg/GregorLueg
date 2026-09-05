@@ -28,7 +28,7 @@ for easy installations without painful Rust compile times.
 </tr>
 <tr>
 <td><a href="https://github.com/GregorLueg/bixverse.gpu">bixverse.gpu</a></td>
-<td><em>To be released</em></td>
+<td><a href="https://gregorlueg.r-universe.dev/bixverse.gpu"><img src="https://gregorlueg.r-universe.dev/bixverse.gpu/badges/version" alt="bixverse.gpu status badge"></a></td>
 <td>SIMD not enough? GPU-accelerated kNN, k-means, correlations, Harmony, SCENIC, SEACells, Scrubet and sparse PCA for <code>bixverse</code>. Also powers a parametric UMAP for <code>manifoldsR</code> + GPU-accelerated Adam optimiser for UMAP.</td>
 </tr>
 <tr>
