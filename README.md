@@ -113,7 +113,7 @@ Public, MIT licensed, usable on their own if you want to skip R.
 <tr>
 <td><a href="https://github.com/GregorLueg/node2vec-rs">node2vec-rs</a></td>
 <td><a href="https://crates.io/crates/node2vec-rs"><img src="https://img.shields.io/crates/v/node2vec-rs" alt="crates.io"></a></td>
-<td>node2vec. Optimised CPU implementation plus a <a href="https://burn.dev">burn</a> version from my first trials with the framework.</td>
+<td>node2vec. Optimised CPU implementation plus a <a href="https://burn.dev">burn</a> version from my first trials with the framework. Also, has now the metapath2vec implementation.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/GregorLueg/evoc-rs">evoc-rs</a></td>
@@ -128,7 +128,7 @@ Public, MIT licensed, usable on their own if you want to skip R.
 <tr>
 <td><a href="https://github.com/GregorLueg/edge-rs">edge-rs</a></td>
 <td><a href="https://crates.io/crates/edge-rs"><img src="https://img.shields.io/crates/v/edge-rs" alt="crates.io"></a></td>
-<td>First attempt at porting edgeR and NEBULA into Rust</td>
+<td>First attempt at porting edgeR, NEBULA and limma-voom into Rust. Potentially some GPU acceleration coming soon.</td>
 </tr>
 </tbody>
 </table>
