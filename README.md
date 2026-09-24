@@ -8,7 +8,7 @@ Currently playing with [burn](https://burn.dev) for deep learning and writing GP
 
 ### R Packages
 
-Public, MIT licensed, slowly but surely also moving to [R-universe](https://gregorlueg.r-universe.dev/packages)
+Public, MIT licensed, all of them now available on [R-universe](https://gregorlueg.r-universe.dev/packages)
 for easy installations without painful Rust compile times.
 
 <table>
@@ -24,7 +24,7 @@ for easy installations without painful Rust compile times.
 <tr>
 <td><a href="https://github.com/GregorLueg/bixverse">bixverse</a></td>
 <td><a href="https://gregorlueg.r-universe.dev/bixverse"><img src="https://gregorlueg.r-universe.dev/bixverse/badges/version" alt="bixverse status badge"></a></td>
-<td>The kitchen sink. Enrichment (GSEA, GSVA, ssGSEA, Gene Ontology with the ontology baked in), matrix factorisations (ICA, NMF, contrastive PCA), gene diffusion, reciprocal best hits, correlation-based methods, and a single cell suite that scales to a million cells on 16 GB without breaking a sweat.</td>
+<td>The kitchen sink. Enrichment (GSEA, GSVA, ssGSEA, Gene Ontology with the ontology baked in), matrix factorisations (ICA, NMF, contrastive PCA), gene diffusion, reciprocal best hits, correlation-based methods, and a single cell suite that scales to a million cells on 16 GB without breaking a sweat and has A LOT of methods from the single cell space implemented.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/GregorLueg/bixverse.gpu">bixverse.gpu</a></td>
@@ -34,12 +34,12 @@ for easy installations without painful Rust compile times.
 <tr>
 <td><a href="https://github.com/GregorLueg/bixverse.plots">bixverse.plots</a></td>
 <td><a href="https://gregorlueg.r-universe.dev/bixverse.plots"><img src="https://gregorlueg.r-universe.dev/bixverse.plots/badges/version" alt="bixverse.plots status badge"></a></td>
-<td>Plotting sub-package. Covers the single cell workflows in <code>bixverse</code>.</td>
+<td>Plotting sub-package. Covers the single cell workflows in <code>bixverse</code> + other plotting helpers.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/GregorLueg/genewalkR">genewalkR</a></td>
 <td><a href="https://gregorlueg.r-universe.dev/genewalkR"><img src="https://gregorlueg.r-universe.dev/genewalkR/badges/version" alt="genewalkR status badge"></a></td>
-<td>node2vec interface with a growing collection of graph-heavy computational biology methods: GeneWalk, GeneDrift, random walks and other diffusion approaches.</td>
+<td>node2vec and metapath2vec interface with a growing collection of graph-heavy computational biology methods: GeneWalk, GeneDrift, random walks and other diffusion approaches.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/GregorLueg/manifoldsR">manifoldsR</a></td>
@@ -66,17 +66,22 @@ Thin wrapper over Rust, MIT licensed and on PyPI. These are barebone wrappers ar
 <tr>
 <td><a href="https://gregorlueg.github.io/ann-search-rs/">ann-search</a></td>
 <td><a href="https://pypi.org/project/ann-search/"><img src="https://img.shields.io/pypi/v/ann-search" alt="PyPI"></a></td>
-<td>Python wrappers over <code>ann-search-rs</code> - blazingly fast vector/nearest neighbour search with a wide array of indices and methods.</td>
+<td>Python wrappers over <code>ann-search-rs</code> - blazingly fast vector/nearest neighbour search with a (very) wide array of indices and methods.</td>
 </tr>
 <tr>
 <td><a href="https://gregorlueg.github.io/manifolds-rs/">manifolds-rs</a></td>
 <td><a href="https://pypi.org/project/manifolds-rs/"><img src="https://img.shields.io/pypi/v/manifolds-rs" alt="PyPI"></a></td>
-<td>Python wrappers over, you guessed it, <code>manifolds-rs</code>. If you need a very fast UMAP, tSNE or other embeddding in Python.</td>
+<td>Python wrappers over, you guessed it, <code>manifolds-rs</code>. If you need a very fast UMAP, tSNE, ForceAtlas2 or other embedding in Python.</td>
 </tr>
 <tr>
 <td><a href="https://gregorlueg.github.io/evoc-rs/">evoc-rs</a></td>
 <td><a href="https://pypi.org/project/evoc-rs/"><img src="https://img.shields.io/pypi/v/evoc-rs" alt="PyPI"></a></td>
 <td>Yet another Python wrapper... This time over EVoC.</td>
+</tr>
+<tr>
+<td><a href="https://pypi.org/project/bonsai-rs/">bonsai-rs</a></td>
+<td><a href="https://pypi.org/project/bonsai-rs/"><img src="https://img.shields.io/pypi/v/bonsai-rs" alt="PyPI"></a></td>
+<td>Python wrapper over <code>bonsai-rs</code>. Tree representations of high-dimensional data where distances hold at every scale.</td>
 </tr>
 </tbody>
 </table>
@@ -98,12 +103,12 @@ Public, MIT licensed, usable on their own if you want to skip R.
 <tr>
 <td><a href="https://github.com/GregorLueg/ann-search-rs">ann-search-rs</a></td>
 <td><a href="https://crates.io/crates/ann-search-rs"><img src="https://img.shields.io/crates/v/ann-search-rs" alt="crates.io"></a></td>
-<td>Approximate nearest neighbour search. Highly optimised CPU indices, quantised and binarised variants, plus GPU-accelerated versions.</td>
+<td>Approximate nearest neighbour search. Highly optimised CPU indices, quantised and binarised variants, plus GPU-accelerated versions leveraging wgpu meaning it runs basically on any GPU.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/GregorLueg/bixverse-rs">bixverse-rs</a></td>
 <td><a href="https://crates.io/crates/bixverse-rs"><img src="https://img.shields.io/crates/v/bixverse-rs" alt="crates.io"></a></td>
-<td>Core Rust behind <code>bixverse</code>. GPU-accelerated methods, single cell algorithms, most of the heavy lifting.</td>
+<td>Core Rust behind <code>bixverse</code>. GPU-accelerated methods, single cell algorithms, most of the heavy numerical lifting.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/GregorLueg/manifolds-rs">manifolds-rs</a></td>
@@ -128,7 +133,17 @@ Public, MIT licensed, usable on their own if you want to skip R.
 <tr>
 <td><a href="https://github.com/GregorLueg/edge-rs">edge-rs</a></td>
 <td><a href="https://crates.io/crates/edge-rs"><img src="https://img.shields.io/crates/v/edge-rs" alt="crates.io"></a></td>
-<td>First attempt at porting edgeR, NEBULA and limma-voom into Rust. Potentially some GPU acceleration coming soon.</td>
+<td>First attempt at porting edgeR, NEBULA and limma-voom into Rust. First GPU acceleration in place for Nebula.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/GregorLueg/sanity-sc-rs">sanity-sc-rs</a></td>
+<td><a href="https://crates.io/crates/sanity-sc-rs"><img src="https://img.shields.io/crates/v/sanity-sc-rs" alt="crates.io"></a></td>
+<td>Clean-room port of <a href="https://doi.org/10.1038/s41587-021-00875-x">Sanity</a>. Raw UMIs in, posterior log expression plus error bars out. CPU and GPU via cubecl. Exists mainly to feed <code>bonsai-rs</code>.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/GregorLueg/bonsai-rs">bonsai-rs</a></td>
+<td><a href="https://crates.io/crates/bonsai-rs"><img src="https://img.shields.io/crates/v/bonsai-rs" alt="crates.io"></a></td>
+<td>Clean-room port of <a href="https://doi.org/10.1038/s41587-026-03220-2">Bonsai</a>. Tree representations of high-dimensional data where distances hold at every scale, not just locally like UMAP and tSNE. Wants means and error bars, so for scRNA-seq it's raw UMIs, then Sanity, then Bonsai.</td>
 </tr>
 </tbody>
 </table>
