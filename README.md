@@ -2,14 +2,14 @@
 
 ### Who am I...?
 
-Computational biologist working across CRISPR screens, genetics, transcriptomics, multi-omics, clinical data and ontologies. Industry background, mostly pharma and biotech. Spare cycles go into open-source tooling: R packages and Python libraries for computational biology and Rust crates that make them fast. Firm believer that good science needs performant open-source software that runs without a fat cloud bill.
+Computational biologist working across CRISPR screens, genetics, transcriptomics, multi-omics, clinical data and ontologies. Industry background, mostly pharma and biotech. Spare cycles go into open-source tooling: R packages and Python libraries for computational biology and Rust crates under the hood that make them fast. Firm believer that good science needs performant open-source software that runs without a fat compute bill.
 
 Currently playing with [burn](https://burn.dev) for deep learning and writing GPU kernels via [cubecl](https://github.com/tracel-ai/cubecl).
 
 ### R Packages
 
 Public, MIT licensed, all of them now available on [R-universe](https://gregorlueg.r-universe.dev/packages)
-for easy installations without painful Rust compile times.
+for easy installations without long Rust compile times.
 
 <table>
 <colgroup>
@@ -88,7 +88,7 @@ Thin wrapper over Rust, MIT licensed and on PyPI. These are barebone wrappers ar
 
 ### Rust Crates
 
-Public, MIT licensed, usable on their own if you want to skip R.
+Public, MIT licensed, usable on their own if you want to skip R or Python and integrate them into your own packages.
 
 <table>
 <colgroup>
@@ -144,6 +144,11 @@ Public, MIT licensed, usable on their own if you want to skip R.
 <td><a href="https://github.com/GregorLueg/bonsai-rs">bonsai-rs</a></td>
 <td><a href="https://crates.io/crates/bonsai-rs"><img src="https://img.shields.io/crates/v/bonsai-rs" alt="crates.io"></a></td>
 <td>Clean-room port of <a href="https://doi.org/10.1038/s41587-026-03220-2">Bonsai</a>. Tree representations of high-dimensional data where distances hold at every scale, not just locally like UMAP and tSNE. Wants means and error bars, so for scRNA-seq it's raw UMIs, then Sanity, then Bonsai.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/GregorLueg/splatter-sc">splatter-sc</a></td>
+<td><a href="https://crates.io/crates/splatter-sc"><img src="https://img.shields.io/crates/v/splatter-sc" alt="crates.io"></a></td>
+<td>Rust-based CLI version of <a href="https://link.springer.com/article/10.1186/s13059-017-1305-0">splatter</a> for synthetic data generation for benchmarking.</td>
 </tr>
 </tbody>
 </table>
