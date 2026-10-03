@@ -146,7 +146,7 @@ Public, MIT licensed, usable on their own if you want to skip R or Python and in
 <td>Clean-room port of <a href="https://doi.org/10.1038/s41587-026-03220-2">Bonsai</a>. Tree representations of high-dimensional data where distances hold at every scale, not just locally like UMAP and tSNE. Wants means and error bars, so for scRNA-seq it's raw UMIs, then Sanity, then Bonsai.</td>
 </tr>
 <tr>
-<td><a href="https://crates.io/crates/splatter-sc">splatter-sc</a></td>
+<td><a href="https://github.com/GregorLueg/splatter-sc">splatter-sc</a></td>
 <td><a href="https://crates.io/crates/splatter-sc"><img src="https://img.shields.io/crates/v/splatter-sc" alt="crates.io"></a></td>
 <td>Rust-based CLI version of <a href="https://link.springer.com/article/10.1186/s13059-017-1305-0">splatter</a> for synthetic data generation for benchmarking.</td>
 </tr>
