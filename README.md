@@ -12,77 +12,67 @@ All MIT licensed. R binaries on [R-universe](https://gregorlueg.r-universe.dev/p
 
 <table>
 <thead>
-<tr><th>Project</th><th>R</th><th>Python</th><th>Rust</th><th>Description</th></tr>
+<tr><th>R</th><th>Python</th><th>Rust</th><th>Description</th></tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/GregorLueg/bixverse">bixverse</a></td>
-<td><a href="https://gregorlueg.r-universe.dev/bixverse">bixverse</a><br><a href="https://gregorlueg.r-universe.dev/bixverse.plots">bixverse.plots</a></td>
+<td><a href="https://github.com/GregorLueg/bixverse">bixverse</a><br><a href="https://github.com/GregorLueg/bixverse.plots">bixverse.plots</a></td>
 <td></td>
-<td><a href="https://crates.io/crates/bixverse-rs">bixverse-rs</a></td>
+<td><a href="https://github.com/GregorLueg/bixverse-rs">bixverse-rs</a></td>
 <td>The kitchen sink. Enrichment, matrix factorisation, gene diffusion and a single cell suite that does a million cells on 16 GB. Plots live in <code>bixverse.plots</code>.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/GregorLueg/bixverse.gpu">bixverse.gpu</a></td>
-<td><a href="https://gregorlueg.r-universe.dev/bixverse.gpu">bixverse.gpu</a></td>
 <td></td>
 <td></td>
 <td>SIMD not enough? GPU kNN, k-means, Harmony, SCENIC, SEACells, Scrublet, sparse PCA and parametric UMAP.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/GregorLueg/ann-search-rs">ann-search</a></td>
-<td><a href="https://gregorlueg.r-universe.dev/annsearchR">annsearchR</a></td>
-<td><a href="https://pypi.org/project/ann-search/">ann-search</a></td>
-<td><a href="https://crates.io/crates/ann-search-rs">ann-search-rs</a></td>
+<td><a href="https://github.com/GregorLueg/annsearchR">annsearchR</a></td>
+<td><a href="https://github.com/GregorLueg/ann-search-rs/tree/main/python">ann-search</a></td>
+<td><a href="https://github.com/GregorLueg/ann-search-rs">ann-search-rs</a></td>
 <td>Blazingly fast nearest neighbour search. Loads of indices, quantised variants, GPU via wgpu.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/GregorLueg/manifolds-rs">manifolds</a></td>
-<td><a href="https://gregorlueg.r-universe.dev/manifoldsR">manifoldsR</a></td>
-<td><a href="https://pypi.org/project/manifolds-rs/">manifolds-rs</a></td>
-<td><a href="https://crates.io/crates/manifolds-rs">manifolds-rs</a></td>
+<td><a href="https://github.com/GregorLueg/manifoldsR">manifoldsR</a></td>
+<td><a href="https://github.com/GregorLueg/manifolds-rs/tree/main/python">manifolds-rs</a></td>
+<td><a href="https://github.com/GregorLueg/manifolds-rs">manifolds-rs</a></td>
 <td>UMAP, tSNE, PaCMAP, PHATE, ForceAtlas2 and diffusion maps.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/GregorLueg/evoc-rs">evoc</a></td>
 <td></td>
-<td><a href="https://pypi.org/project/evoc-rs/">evoc-rs</a></td>
-<td><a href="https://crates.io/crates/evoc-rs">evoc-rs</a></td>
+<td><a href="https://github.com/GregorLueg/evoc-rs/tree/main/python">evoc-rs</a></td>
+<td><a href="https://github.com/GregorLueg/evoc-rs">evoc-rs</a></td>
 <td>Port of <a href="https://github.com/TutteInstitute/evoc">EVoC</a> clustering. In R via <code>manifoldsR</code>.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/GregorLueg/genewalkR">genewalk</a></td>
-<td><a href="https://gregorlueg.r-universe.dev/genewalkR">genewalkR</a></td>
+<td><a href="https://github.com/GregorLueg/genewalkR">genewalkR</a></td>
 <td></td>
-<td><a href="https://crates.io/crates/node2vec-rs">node2vec-rs</a></td>
+<td><a href="https://github.com/GregorLueg/node2vec-rs">node2vec-rs</a></td>
 <td>node2vec and metapath2vec, plus GeneWalk, GeneDrift and other graph methods.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/GregorLueg/bonsai-rs">bonsai</a></td>
 <td></td>
-<td><a href="https://pypi.org/project/bonsai-rs/">bonsai-rs</a></td>
-<td><a href="https://crates.io/crates/bonsai-rs">bonsai-rs</a><br><a href="https://crates.io/crates/sanity-sc-rs">sanity-sc-rs</a></td>
+<td><a href="https://github.com/GregorLueg/bonsai-rs/tree/main/python">bonsai-rs</a></td>
+<td><a href="https://github.com/GregorLueg/bonsai-rs">bonsai-rs</a><br><a href="https://github.com/GregorLueg/sanity-sc-rs">sanity-sc-rs</a></td>
 <td>Ports of <a href="https://doi.org/10.1038/s41587-026-03220-2">Bonsai</a> and <a href="https://doi.org/10.1038/s41587-021-00875-x">Sanity</a>. Trees where distances hold at every scale.</td>
 </tr>
 <tr>
+<td></td>
+<td></td>
 <td><a href="https://github.com/GregorLueg/edge-rs">edge-rs</a></td>
-<td></td>
-<td></td>
-<td><a href="https://crates.io/crates/edge-rs">edge-rs</a></td>
 <td>edgeR, limma-voom and NEBULA in Rust. NEBULA on the GPU.</td>
 </tr>
 <tr>
+<td></td>
+<td></td>
 <td><a href="https://github.com/GregorLueg/splatter-sc">splatter-sc</a></td>
-<td></td>
-<td></td>
-<td><a href="https://crates.io/crates/splatter-sc">splatter-sc</a></td>
 <td>CLI version of <a href="https://link.springer.com/article/10.1186/s13059-017-1305-0">splatter</a> for synthetic benchmark data.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/GregorLueg/cubecl-utils-rs">cubecl-utils</a></td>
 <td></td>
 <td></td>
-<td><a href="https://crates.io/crates/cubecl-utils-rs">cubecl-utils-rs</a></td>
+<td><a href="https://github.com/GregorLueg/cubecl-utils-rs">cubecl-utils-rs</a></td>
 <td>Shared cubecl kernel helpers across my crates.</td>
 </tr>
 </tbody>
