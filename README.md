@@ -8,7 +8,7 @@ Currently playing with [burn](https://burn.dev) for deep learning and writing GP
 
 ### Packages
 
-All MIT licensed. R binaries on [R-universe](https://gregorlueg.r-universe.dev/packages) (no Rust compile), Python on PyPI, Rust on crates.io if you want the crates in your own stuff.
+All MIT licensed. R binaries on [R-universe](https://gregorlueg.r-universe.dev/packages) (no Rust compile), Python on [PyPI](https://pypi.org/user/GregorLueg/), Rust on [crates.io](https://crates.io/users/GregorLueg) if you want the crates in your own stuff.
 
 <table>
 <thead>
