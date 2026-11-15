@@ -16,16 +16,10 @@ All MIT licensed. R binaries on [R-universe](https://gregorlueg.r-universe.dev/p
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/GregorLueg/bixverse">bixverse</a><br><a href="https://github.com/GregorLueg/bixverse.plots">bixverse.plots</a></td>
+<td><a href="https://github.com/GregorLueg/bixverse">bixverse</a><br><a href="https://github.com/GregorLueg/bixverse.plots">bixverse.plots</a><br><a href="https://github.com/GregorLueg/bixverse.gpu">bixverse.gpu</a></td>
 <td><a href="https://gregorlueg.github.io/bixverse-rs/">bixverse</a></td>
 <td><a href="https://github.com/GregorLueg/bixverse-rs">bixverse-rs</a></td>
-<td>The kitchen sink. Enrichment, matrix factorisation, gene diffusion and a single cell suite that does a million cells on 16 GB. Plots live in <code>bixverse.plots</code>. The Python package ports the single cell suite.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/GregorLueg/bixverse.gpu">bixverse.gpu</a></td>
-<td></td>
-<td></td>
-<td>SIMD not enough? GPU kNN, k-means, Harmony, SCENIC, SEACells, Scrublet, sparse PCA and parametric UMAP.</td>
+<td>The kitchen sink. Enrichment, matrix factorisation, gene diffusion and a single cell suite that does a million cells on 16 GB. Plots live in <code>bixverse.plots</code>. The Python package ports the single cell suite. SIMD not enough? GPU kNN, k-means, Harmony, SCENIC, SEACells, Scrublet, sparse PCA and parametric UMAP live in <code>bixverse.gpu</code>.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/GregorLueg/annsearchR">annsearchR</a></td>
